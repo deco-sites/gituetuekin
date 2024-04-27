@@ -1613,8 +1613,8 @@
       "products": [],
       "searches": []
     },
-    "logoPosition": "center",
-    "__resolveType": "site/sections/Header/Header.tsx"
+    "__resolveType": "site/sections/Header/Header.tsx",
+    "logoPosition": "left"
   },
   "Image Gallery - 01": {
     "title": "New collections",
