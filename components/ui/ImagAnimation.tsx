@@ -28,24 +28,24 @@ export default function ImageAnimation({ images }: Props) {
       <div className="relative">
         <Image
           src={images[currentImageIndex.value]?.image}
-          className="rounded-2xl animate-fadeInOut"
+          className="rounded-2xl"
           width={1200}
           height={520}
           loading="eager"
         />
 
         <div class="bg-white w-[496px] h-[308px] rounded-[30px] absolute -top-6 -left-6">
-           <div class="bg-black w-[426px] h-[226px] rounded-2xl flex items-center justify-center" >
-             <div class=" w-[379px] flex flex-col max-auto  items-center  gap-4">
+          <div class="bg-black w-[426px] h-[226px] rounded-2xl flex items-center justify-center">
+            <div class=" w-[379px] flex flex-col max-auto  items-center  gap-4">
               <p class="text-2xl text-white font-medium leaning-[34px]">
-              "Creativity is seeing what others see and thinking what no one else ever thought." 
-             </p>
+                "Creativity is seeing what others see and thinking what no one
+                else ever thought."
+              </p>
               <span class="text-base font-medium leading-10 text-white">
                 - Albert Einstein
               </span>
-             </div>
-             
-           </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

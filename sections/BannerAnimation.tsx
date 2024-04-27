@@ -1,1 +1,1 @@
-export { default } from '../components/ui/BannerAnimation.tsx'
+export { default } from "../components/ui/BannerAnimation.tsx";
