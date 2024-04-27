@@ -1592,9 +1592,7 @@
       "width": 100,
       "height": 16
     },
-    "alerts": [
-      "Use this template to create your store at deco.cx"
-    ],
+    "alerts": [],
     "navItems": {
       "__resolveType": "navbar"
     },
@@ -2585,8 +2583,7 @@
   "navbar": {
     "items": [
       {
-        "url": "/feminino",
-        "name": "Feminino",
+        "url": "/",
         "@type": "SiteNavigationElement",
         "image": [
           {
@@ -2612,11 +2609,11 @@
               }
             ]
           }
-        ]
+        ],
+        "name": "Home"
       },
       {
-        "url": "/masculino",
-        "name": "Masculino",
+        "url": "/sobre",
         "@type": "SiteNavigationElement",
         "image": [
           {
@@ -2642,59 +2639,21 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "url": "/sale",
-        "name": "Sale",
-        "@type": "SiteNavigationElement",
-        "image": [
-          {
-            "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5e9310c0-c725-4643-ade3-f92a505bd1d6",
-            "@type": "ImageObject"
-          }
         ],
-        "children": [
-          {
-            "url": "/feminino",
-            "name": "Feminino",
-            "@type": "SiteNavigationElement",
-            "children": [
-              {
-                "url": "/feminino",
-                "name": "Camisetas",
-                "@type": "SiteNavigationElement"
-              },
-              {
-                "url": "/feminino",
-                "name": "Camisas",
-                "@type": "SiteNavigationElement"
-              }
-            ]
-          },
-          {
-            "url": "/masculino",
-            "name": "Masculino",
-            "@type": "SiteNavigationElement",
-            "children": [
-              {
-                "url": "/masculino",
-                "name": "Camisetas",
-                "@type": "SiteNavigationElement"
-              },
-              {
-                "url": "/masculino",
-                "name": "Regatas",
-                "@type": "SiteNavigationElement"
-              }
-            ]
-          }
-        ]
+        "name": "Sobre"
       },
       {
-        "url": "/linktree",
-        "name": "Link Tree",
-        "@type": "SiteNavigationElement"
+        "url": "/portfolio",
+        "@type": "SiteNavigationElement",
+        "image": [],
+        "children": [],
+        "name": "Portfolio"
+      },
+      {
+        "url": "/contato",
+        "@type": "SiteNavigationElement",
+        "children": [],
+        "name": "Contato"
       }
     ],
     "__resolveType": "commerce/loaders/navbar.ts"
@@ -3128,21 +3087,7 @@
         "__resolveType": "Header - 01"
       },
       {
-        "__resolveType": "site/sections/BannerMain.tsx",
-        "images": [
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/2061e74a-fa3e-4504-a533-9fa7f7a7fcdb"
-          },
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/1ad21518-06b4-4825-b1ca-938b191c079d"
-          },
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/8906b4f1-8d63-4321-ac70-2ad455396767"
-          },
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/85c48bbb-b861-4d52-aed6-ba1142b11dbf"
-          }
-        ]
+        "__resolveType": "site/sections/BannerMain.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
