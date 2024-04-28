@@ -51,36 +51,15 @@ function Navbar(
             />
           </a>
         )}
-
-        <div class="flex justify-end gap-1">
-          <SearchButton />
-          {platform === "vtex" && <CartButtonVTEX />}
-          {platform === "vnda" && <CartButtonVDNA />}
-          {platform === "wake" && <CartButtonWake />}
-          {platform === "linx" && <CartButtonLinx />}
-          {platform === "shopify" && <CartButtonShopify />}
-          {platform === "nuvemshop" && <CartButtonNuvemshop />}
-        </div>
       </div>
     );
   }
 
   // Desktop header
   return (
-    <div class="hidden sm:grid sm:grid-cols-3 items-center border-b border-base-200 w-full px-6">
-      <ul
-        class={`flex gap-6 col-span-1 ${
-          logoPosition === "left" ? "justify-center" : "justify-start"
-        }`}
-      >
-        {items.map((item) => <NavItem item={item} />)}
-      </ul>
-      <div
-        class={`flex ${
-          logoPosition === "left" ? "justify-start -order-1" : "justify-center"
-        }`}
-      >
-        {logo && (
+    <div class="hidden  max-w-screen-2xl sm:grid sm:grid-cols-2 items-center justify-between w-full px-20">
+     
+     {logo && (
           <a
             href="/"
             aria-label="Store logo"
@@ -94,53 +73,13 @@ function Navbar(
             />
           </a>
         )}
-      </div>
-      <div class="flex-none flex items-center justify-end gap-6 col-span-1">
-        {!buttons?.hideSearchButton && (
-          <div class="flex items-center text-xs font-thin gap-1">
-            <SearchButton />SEARCH
-          </div>
-        )}
 
-        <Searchbar searchbar={searchbar} />
-        {!buttons?.hideAccountButton && (
-          <a
-            class="flex items-center text-xs font-thin"
-            href="/account"
-            aria-label="Account"
-          >
-            <div class="flex btn btn-circle btn-sm btn-ghost gap-1">
-              <Icon id="User" size={20} strokeWidth={0.4} />
-            </div>
-            ACCOUNT
-          </a>
-        )}
-        {!buttons?.hideWishlistButton && (
-          <a
-            class="flex items-center text-xs font-thin"
-            href="/wishlist"
-            aria-label="Wishlist"
-          >
-            <button
-              class="flex btn btn-circle btn-sm btn-ghost gap-1"
-              aria-label="Wishlist"
-            >
-              <Icon id="Heart" size={24} strokeWidth={0.4} />
-            </button>
-            WISHLIST
-          </a>
-        )}
-        {!buttons?.hideCartButton && (
-          <div class="flex items-center text-xs font-thin">
-            {platform === "vtex" && <CartButtonVTEX />}
-            {platform === "vnda" && <CartButtonVDNA />}
-            {platform === "wake" && <CartButtonWake />}
-            {platform === "linx" && <CartButtonLinx />}
-            {platform === "shopify" && <CartButtonShopify />}
-            {platform === "nuvemshop" && <CartButtonNuvemshop />}
-          </div>
-        )}
-      </div>
+      <ul
+        class={`flex gap-6 col-span-1 justify-end
+        }`}
+      >
+        {items.map((item) => <NavItem item={item} />)}
+      </ul>
     </div>
   );
 }

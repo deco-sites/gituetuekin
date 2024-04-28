@@ -9,7 +9,7 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
   return (
     <li class="group flex items-center">
       <a href={url} class="py-6">
-        <span class="group-hover:underline text-xs font-thin">
+        <span class="group-hover:underline text-xl font-normal">
           {name}
         </span>
       </a>
@@ -32,7 +32,7 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
             )}
             <ul class="flex items-start justify-center gap-6">
               {children.map((node) => (
-                <li class="p-6">
+                <li class="p-6 font-clash-display">
                   <a class="hover:underline" href={node.url}>
                     <span>{node.name}</span>
                   </a>

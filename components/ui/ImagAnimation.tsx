@@ -32,12 +32,13 @@ export default function ImageAnimation({ images }: Props) {
           width={1200}
           height={520}
           loading="eager"
+          alt="imagens"
         />
 
         <div class="bg-white w-[496px] h-[308px] rounded-[30px] absolute -top-6 -left-6">
           <div class="bg-black w-[426px] h-[226px] rounded-2xl flex items-center justify-center">
-            <div class=" w-[379px] flex flex-col max-auto  items-center  gap-4">
-              <p class="text-2xl text-white font-medium leaning-[34px]">
+            <div class=" w-[379px] flex flex-col max-auto gap-4">
+              <p class="text-2xl text-white font-medium leaning-[34px] font-clash-display">
                 "Creativity is seeing what others see and thinking what no one
                 else ever thought."
               </p>
