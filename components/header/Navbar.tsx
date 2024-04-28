@@ -58,21 +58,20 @@ function Navbar(
   // Desktop header
   return (
     <div class="hidden  max-w-screen-2xl sm:grid sm:grid-cols-2 items-center justify-between w-full px-20">
-     
-     {logo && (
-          <a
-            href="/"
-            aria-label="Store logo"
-            class="block"
-          >
-            <Image
-              src={logo.src}
-              alt={logo.alt}
-              width={logo.width || 100}
-              height={logo.height || 13}
-            />
-          </a>
-        )}
+      {logo && (
+        <a
+          href="/"
+          aria-label="Store logo"
+          class="block"
+        >
+          <Image
+            src={logo.src}
+            alt={logo.alt}
+            width={logo.width || 100}
+            height={logo.height || 13}
+          />
+        </a>
+      )}
 
       <ul
         class={`flex gap-6 col-span-1 justify-end
