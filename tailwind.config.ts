@@ -7,7 +7,7 @@ export default {
   theme: {
     container: { center: true },
     fontFamily: {
-      "clash-display":"Clash-Display"
+      "clash-display": "Clash-Display",
     },
     extend: {
       animation: {
@@ -24,7 +24,6 @@ export default {
           "100%": { opacity: "1" },
         },
       },
-      
     },
   },
 };

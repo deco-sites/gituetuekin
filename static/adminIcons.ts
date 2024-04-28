@@ -99,7 +99,7 @@ export const share = `<svg id="share" xmlns="http://www.w3.org/2000/svg" fill="n
 		<path d="M8.7 13.3l6.6 3.4"></path>
     </svg>`;
 
-export const AvailableIcons = { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, QuestionMarkCircle, User, ShoppingCart, Bars3, Heart, MagnifyingGlass, XMark, Plus, Minus, MapPin, Phone, Elos, Mastercards, Visas, Pixs, Instagram, Truck, Discount, Return, CreditCards, Deco, Discord, FilterList, Trash, WhatsApp, ArrowsPointingOut, Star, Ruler, Message, Close, Zoom, Twitter, Facebook, Linkedin, Tiktok, Elo, Diners, Mastercard, Pix, Visa, Alert, AlertInfo, AlertSuccess, AlertWarning, AlertError, share };
+
 
 // Icons for ButtonGroup widget
 
@@ -161,3 +161,24 @@ export const Lowercase = `<svg id="letter-case-lower" width="20" height="20" vie
 		<path fill-rule="evenodd" clip-rule="evenodd" d="M5.41663 10.8334C4.26603 10.8334 3.33329 11.7661 3.33329 12.9167C3.33329 14.0673 4.26603 15 5.41663 15C6.56722 15 7.49996 14.0673 7.49996 12.9167C7.49996 11.7661 6.56722 10.8334 5.41663 10.8334ZM7.52115 9.81246C6.92111 9.40486 6.19668 9.16669 5.41663 9.16669C3.34556 9.16669 1.66663 10.8456 1.66663 12.9167C1.66663 14.9878 3.34556 16.6667 5.41663 16.6667C6.19668 16.6667 6.92111 16.4285 7.52115 16.0209C7.60624 16.3908 7.93755 16.6667 8.33329 16.6667C8.79353 16.6667 9.16663 16.2936 9.16663 15.8334V10C9.16663 9.53978 8.79353 9.16669 8.33329 9.16669C7.93755 9.16669 7.60624 9.44254 7.52115 9.81246ZM14.5833 10.8334C13.4327 10.8334 12.5 11.7661 12.5 12.9167C12.5 14.0673 13.4327 15 14.5833 15C15.7339 15 16.6666 14.0673 16.6666 12.9167C16.6666 11.7661 15.7339 10.8334 14.5833 10.8334ZM16.6878 9.81246C16.0878 9.40486 15.3633 9.16669 14.5833 9.16669C12.5122 9.16669 10.8333 10.8456 10.8333 12.9167C10.8333 14.9878 12.5122 16.6667 14.5833 16.6667C15.3633 16.6667 16.0878 16.4285 16.6878 16.0209C16.7729 16.3908 17.1042 16.6667 17.5 16.6667C17.9602 16.6667 18.3333 16.2936 18.3333 15.8334V10C18.3333 9.53978 17.9602 9.16669 17.5 9.16669C17.1042 9.16669 16.7729 9.44254 16.6878 9.81246Z" fill="inherit"/>
 	</svg>`;
 
+export const Drible = `<svg id="Drible" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+		<path d="M8.56 2.75C12.93 8.78 14.58 12.17 16.59 20.47M19.13 5.09C15.41 9.44 10.19 10.75 2.25 10.94M21.75 12.84C18.25 11.91 15.12 12.02 12.81 12.84C10.23 13.76 7.8 15.7 5.37 19.16" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>`;
+export const Insta = `<svg id="Insta"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+		<path d="M16.0002 11.3701C16.1236 12.2023 15.9815 13.0523 15.594 13.7991C15.2065 14.5459 14.5933 15.1515 13.8418 15.5297C13.0903 15.908 12.2386 16.0397 11.408 15.906C10.5773 15.7723 9.80996 15.3801 9.21503 14.7852C8.62011 14.1903 8.22793 13.4229 8.09426 12.5923C7.9606 11.7616 8.09226 10.91 8.47052 10.1584C8.84878 9.40691 9.45438 8.7938 10.2012 8.4063C10.948 8.0188 11.7979 7.87665 12.6302 8.00006C13.4791 8.12594 14.265 8.52152 14.8719 9.12836C15.4787 9.73521 15.8743 10.5211 16.0002 11.3701Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+		<path d="M17.5 6.5H17.51" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+	</svg>`;
+export const GitHub = `<svg id="GitHub" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+		<g clip-path="url(#clip0_8_1669)">
+			<path d="M9 19.0001C4 20.5001 4 16.5001 2 16.0001M16 22.0001V18.1301C16.0375 17.6532 15.9731 17.1739 15.811 16.7239C15.6489 16.2738 15.3929 15.8635 15.06 15.5201C18.2 15.1701 21.5 13.9801 21.5 8.52006C21.4997 7.12389 20.9627 5.78126 20 4.77006C20.4559 3.54857 20.4236 2.19841 19.91 1.00006C19.91 1.00006 18.73 0.65006 16 2.48006C13.708 1.85888 11.292 1.85888 9 2.48006C6.27 0.65006 5.09 1.00006 5.09 1.00006C4.57638 2.19841 4.54414 3.54857 5 4.77006C4.03013 5.78876 3.49252 7.14352 3.5 8.55006C3.5 13.9701 6.8 15.1601 9.94 15.5501C9.611 15.89 9.35726 16.2955 9.19531 16.74C9.03335 17.1845 8.96681 17.6581 9 18.1301V22.0001" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+		</g>
+		<defs>
+			<clipPath id="clip0_8_1669">
+			<rect width="24" height="24" fill="white"/>
+			</clipPath>
+		</defs>
+	</svg>`;
+
+export const AvailableIcons = { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, QuestionMarkCircle, User, ShoppingCart, Bars3, Heart, MagnifyingGlass, XMark, Plus, Minus, MapPin, Phone, Elos, Mastercards, Visas, Pixs, Instagram, Truck, Discount, Return, CreditCards, Deco, Discord, FilterList, Trash, WhatsApp, ArrowsPointingOut, Star, Ruler, Message, Close, Zoom, Twitter, Facebook, Linkedin, Tiktok, Elo, Diners, Mastercard, Pix, Visa, Alert, AlertInfo, AlertSuccess, AlertWarning, AlertError, share, Left, Center, Right, SideToSide, Default, AlignJustified, AlignLeft, AlignCenter, AlignRight, Uppercase, Lettercase, Lowercase, Drible, Insta, GitHub };

@@ -47,7 +47,6 @@ export default defineApp(async (_req, ctx) => {
         }}
       />
 
-
       {/* Include service worker */}
       <script
         type="module"
