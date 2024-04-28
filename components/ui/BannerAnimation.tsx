@@ -4,7 +4,10 @@ import { AppContext } from "../../apps/site.ts";
 import type { SectionProps } from "deco/types.ts";
 
 export interface Picture {
+  /** @tilte Image Desktop */
   image: ImageWidget;
+  /** @tilte Image Mobile */
+  imageMobile: ImageWidget;
 }
 
 export interface Props {
@@ -25,7 +28,7 @@ export default function BannerMain(
 ) {
   console.log(device);
   return (
-    <div class="container max-auto flex items-center justify-center mt-28">
+    <div class="container max-auto flex items-center justify-center md:mt-28">
       <ImageAnimation
         images={images}
         device={device}
