@@ -19,30 +19,46 @@ export interface Props {
 export default function ImageAnimation({ images, device, socialItems }: Props) {
   const currentImageIndex = useSignal<number>(0);
 
-  useEffect(() => {
-    const time = currentImageIndex.value === 0 ? 3000 : 1500;
-
-    const interval = setInterval(() => {
+  const startInterval = () => {
+    return setTimeout(() => {
       currentImageIndex.value = (currentImageIndex.value + 1) % images.length;
-    }, time);
+      callbackFunction();
+    }, 2000);
+  };
 
-    return () => clearInterval(interval);
-  }, [currentImageIndex]);
+  const callbackFunction = () => {
+    startInterval();
+  };
+
+  useEffect(() => {
+    const timeout = startInterval();
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, []);
 
   return (
     <>
       {device === "desktop"
         ? (
           <div className="relative w-[1200px] h-[701px] m-auto">
-            <Image
-              src={images[currentImageIndex.value]?.image}
-              className="rounded-2xl h-[701px] w-full object-contain"
-              width={1200}
-              height={701}
-              loading="eager"
-              alt="imagens"
-              fetchPriority="high"
-            />
+            {images.map((item, index) => (
+              <Image
+                src={item.image}
+                key={index}
+                className={`rounded-2xl h-[701px] w-full object-contain absolute top-0 right-0 ${
+                  currentImageIndex.value === index
+                    ? "opacity-100"
+                    : "opacity-0"
+                }`}
+                width={1200}
+                height={701}
+                loading="eager"
+                alt="imagens"
+                fetchPriority="high"
+              />
+            ))}
 
             <div class="bg-white w-[496px] h-[308px] rounded-[30px] absolute -top-6 -left-6">
               <div class="bg-black w-[426px] h-[226px] rounded-2xl flex items-center justify-center">
@@ -87,15 +103,22 @@ export default function ImageAnimation({ images, device, socialItems }: Props) {
         )
         : (
           <div class="w-full">
-            <Image
-              src={images[currentImageIndex.value]?.imageMobile}
-              className="rounded-2xl w-full"
-              width={446}
-              height={607}
-              loading="eager"
-              alt="imagens"
-              fetchPriority="high"
-            />
+            {images.map((item, index) => (
+              <Image
+                src={item.imageMobile}
+                key={index}
+                className={`rounded-2xl h-auto w-full object-contain absolute top-0 right-0 ${
+                  currentImageIndex.value === index
+                    ? "opacity-100"
+                    : "opacity-0"
+                }`}
+                width={446}
+                height={607}
+                loading="eager"
+                alt="imagens"
+                fetchPriority="high"
+              />
+            ))}
           </div>
         )}
     </>
