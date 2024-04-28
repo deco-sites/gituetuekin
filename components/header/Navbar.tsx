@@ -1,13 +1,5 @@
 import type { Props as SearchbarProps } from "../../components/search/Searchbar.tsx";
-import Icon from "../../components/ui/Icon.tsx";
-import { MenuButton, SearchButton } from "../../islands/Header/Buttons.tsx";
-import CartButtonLinx from "../../islands/Header/Cart/linx.tsx";
-import CartButtonShopify from "../../islands/Header/Cart/shopify.tsx";
-import CartButtonVDNA from "../../islands/Header/Cart/vnda.tsx";
-import CartButtonVTEX from "../../islands/Header/Cart/vtex.tsx";
-import CartButtonWake from "../../islands/Header/Cart/wake.tsx";
-import CartButtonNuvemshop from "../../islands/Header/Cart/nuvemshop.tsx";
-import Searchbar from "../../islands/Header/Searchbar.tsx";
+import { MenuButton } from "../../islands/Header/Buttons.tsx";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
@@ -17,7 +9,7 @@ import { Buttons, Logo } from "../../components/header/Header.tsx";
 
 // Make it sure to render it on the server only. DO NOT render it on an island
 function Navbar(
-  { items, searchbar, logo, buttons, logoPosition = "left", device }: {
+  { items, logo, device }: {
     items: SiteNavigationElement[];
     searchbar?: SearchbarProps;
     logo?: Logo;
@@ -57,7 +49,7 @@ function Navbar(
 
   // Desktop header
   return (
-    <div class="hidden  max-w-screen-2xl sm:grid sm:grid-cols-2 items-center justify-between w-full px-20">
+    <div class="hidden m-auto max-w-screen-2xl sm:grid sm:grid-cols-2 items-center justify-between w-full px-20">
       {logo && (
         <a
           href="/"

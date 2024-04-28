@@ -7,8 +7,10 @@ import Icon from "./Icon.tsx";
 
 export interface Picture {
   image: ImageWidget;
+
+  imageMobile: ImageWidget;
 }
-interface Props {
+export interface Props {
   images: Picture[];
   device: string;
   socialItems: SocialItem[];
@@ -17,11 +19,7 @@ interface Props {
 export default function ImageAnimation({ images, device, socialItems }: Props) {
   const currentImageIndex = useSignal<number>(0);
 
-  console.log(socialItems);
-
   useEffect(() => {
-    console.log("entrei aqui");
-
     const time = currentImageIndex.value === 0 ? 3000 : 1500;
 
     const interval = setInterval(() => {
@@ -29,7 +27,7 @@ export default function ImageAnimation({ images, device, socialItems }: Props) {
     }, time);
 
     return () => clearInterval(interval);
-  }, [images.length, currentImageIndex, images]);
+  }, [currentImageIndex]);
 
   return (
     <>
@@ -90,10 +88,10 @@ export default function ImageAnimation({ images, device, socialItems }: Props) {
         : (
           <div class="w-full">
             <Image
-              src={images[currentImageIndex.value]?.image}
+              src={images[currentImageIndex.value]?.imageMobile}
               className="rounded-2xl w-full"
-              width={430}
-              height={590}
+              width={446}
+              height={607}
               loading="eager"
               alt="imagens"
               fetchPriority="high"
