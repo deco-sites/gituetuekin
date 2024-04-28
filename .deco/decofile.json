@@ -3177,13 +3177,13 @@
   "site": {
     "seo": {
       "type": "website",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/a5d890ba-e5b8-471e-8b77-7412c1d4fa56",
+      "image": "https://creatorspace.imgix.net/richdata/spotify/playlists/aHR0cHM6Ly9pbWFnZS1jZG4tYWsuc3BvdGlmeWNkbi5jb20vaW1hZ2UvYWI2NzcwNmMwMDAwZGE4NDk5MDdjODExMTcxZWFhMDBhMjcwN2Y2MA==.jpeg?h=127&dpr=2",
       "title": "Storefront",
       "jsonLDs": [],
       "noIndexing": false,
-      "description": "Improve your page performance with deco.cx",
-      "titleTemplate": "%s | deco.cx",
-      "descriptionTemplate": "%s | Deco.cx"
+      "titleTemplate": "G-T |  GTuetuekin",
+      "description": "Digital&Graphic Designer",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/838f270a-9127-422b-a9f6-767db475bb27"
     },
     "theme": {
       "__resolveType": "Fashion theme"
