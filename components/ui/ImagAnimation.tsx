@@ -16,9 +16,12 @@ export default function ImageAnimation({ images }: Props) {
 
   useEffect(() => {
     console.log("entrei aqui");
+    
+    const time =  currentImageIndex.value ===  0 ? 3000 : 1500
+
     const interval = setInterval(() => {
       currentImageIndex.value = (currentImageIndex.value + 1) % images.length;
-    }, 1500);
+    }, time);
 
     return () => clearInterval(interval);
   }, [images.length, currentImageIndex, images]);
@@ -33,6 +36,7 @@ export default function ImageAnimation({ images }: Props) {
           height={520}
           loading="eager"
           alt="imagens"
+          fetchPriority="high"
         />
 
         <div class="bg-white w-[496px] h-[308px] rounded-[30px] absolute -top-6 -left-6">
