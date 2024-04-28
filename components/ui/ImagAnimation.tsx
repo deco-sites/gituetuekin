@@ -33,10 +33,10 @@ export default function ImageAnimation({ images, device, socialItems }: Props) {
     <>
       {device === "desktop"
         ? (
-          <div className="relative">
+          <div className="relative w-[1200px] h-[701px] m-auto">
             <Image
               src={images[currentImageIndex.value]?.image}
-              className="rounded-2xl h-[701px] w-full"
+              className="rounded-2xl h-[701px] w-full object-contain"
               width={1200}
               height={701}
               loading="eager"
@@ -57,7 +57,7 @@ export default function ImageAnimation({ images, device, socialItems }: Props) {
                 </div>
               </div>
             </div>
-            <div class="absolute bottom-0 -left-10">
+            <div class="absolute bottom-8 -left-10">
               <div class="flex flex-col gap-4">
                 <ul
                   class={`flex gap-4 lg:flex-col lg:items-start
