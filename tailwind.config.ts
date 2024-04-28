@@ -6,6 +6,9 @@ export default {
   content: ["./**/*.tsx"],
   theme: {
     container: { center: true },
+    fontFamily: {
+      "clash-display":"Clash-Display"
+    },
     extend: {
       animation: {
         sliding: "sliding 30s linear infinite",
@@ -21,6 +24,7 @@ export default {
           "100%": { opacity: "1" },
         },
       },
+      
     },
   },
 };

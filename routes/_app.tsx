@@ -34,6 +34,20 @@ export default defineApp(async (_req, ctx) => {
       {/* Rest of Preact tree */}
       <ctx.Component />
 
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+            @font-face{
+              font-family:'Clash-Display';
+              src: url("/fonts/ClashDisplay-Variable.ttf") format("truetype");
+              font-display: swap;
+              font-style: normal;
+            }; 
+        `,
+        }}
+      />
+
+
       {/* Include service worker */}
       <script
         type="module"
