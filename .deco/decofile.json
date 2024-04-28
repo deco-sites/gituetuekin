@@ -3060,6 +3060,20 @@
           {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/0adedc9e-cb76-4dea-a75c-63a31d3117d6"
           }
+        ],
+        "socialItems": [
+          {
+            "label": "Drible",
+            "link": "/"
+          },
+          {
+            "label": "Instagram",
+            "link": "/"
+          },
+          {
+            "label": "GitHub",
+            "link": "/"
+          }
         ]
       }
     ],
