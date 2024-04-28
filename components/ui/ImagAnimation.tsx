@@ -36,9 +36,9 @@ export default function ImageAnimation({ images, device, socialItems }: Props) {
           <div className="relative">
             <Image
               src={images[currentImageIndex.value]?.image}
-              className="rounded-2xl"
+              className="rounded-2xl h-[701px] w-full"
               width={1200}
-              height={520}
+              height={701}
               loading="eager"
               alt="imagens"
               fetchPriority="high"
