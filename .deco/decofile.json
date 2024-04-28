@@ -3079,6 +3079,40 @@
             "link": "/"
           }
         ]
+      },
+      {
+        "__resolveType": "site/sections/GalleryCases.tsx",
+        "title": "ProjetoTES",
+        "cards": [
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/3f54a539-b627-47fe-b7f8-7527d666acf3",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/9f8895f9-6bde-46b9-a7d4-9b302eb29b1f",
+            "alt": "KIITOS ",
+            "title": "KIITOS ",
+            "description": "mmOBILE APP",
+            "link": "/"
+          },
+          {
+            "alt": "maps",
+            "title": "maps",
+            "description": "way finding",
+            "link": "/",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/aa6a7238-d17b-4deb-b076-772ff87ce7e4",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/adc40dba-cf88-4f75-bd83-7d391e4e21e6"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/2551fbc2-f033-438a-9440-67a3bfb8a5f3",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/055c6e8b-fa54-4448-b395-797123ef4b58",
+            "alt": "campaing",
+            "title": "ca",
+            "description": "video",
+            "link": "/"
+          }
+        ],
+        "button": {
+          "name": "cases",
+          "link": "/"
+        }
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
