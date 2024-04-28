@@ -3052,10 +3052,10 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/c99d9e31-486c-44ce-be2e-dc3fde65d725"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/96a062ef-3b3f-4c5d-884f-09f65331b049"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/1c50b030-e686-4148-bef4-cf2d1713ca52"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/8d91bba4-c502-4422-ac8e-6f937203ad9a"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/2d69a4ee-6018-47cc-a129-13b8fdbf925d"
           },
           {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/0adedc9e-cb76-4dea-a75c-63a31d3117d6"
@@ -3183,7 +3183,8 @@
       "noIndexing": false,
       "titleTemplate": "G-T |  GTuetuekin",
       "description": "Digital&Graphic Designer",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/838f270a-9127-422b-a9f6-767db475bb27"
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/7e34492b-1e8f-4f7a-8687-c02c9904ffd7",
+      "descriptionTemplate": "%s"
     },
     "theme": {
       "__resolveType": "Fashion theme"
