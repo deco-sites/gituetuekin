@@ -3107,6 +3107,14 @@
             "title": "ca",
             "description": "video",
             "link": "/"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/3312d688-c3f5-4caa-bb77-e1a8fcd27f9b",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/9a7e4a38-86f9-4ca3-82fa-da4e9a8ebf70",
+            "alt": "WeSpell",
+            "title": "WeSpell",
+            "description": "Mobile app",
+            "link": "/"
           }
         ],
         "button": {
