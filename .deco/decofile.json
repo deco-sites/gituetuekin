@@ -3115,6 +3115,46 @@
             "title": "WeSpell",
             "description": "Mobile app",
             "link": "/"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/1de5fe35-6167-4a4f-8c48-3235a2220fe9",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/eb95889a-5d30-4b74-8c8d-9a3c94973331",
+            "alt": "Posters",
+            "description": "INTERACTIVE",
+            "title": "Posters",
+            "link": "/"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/bdccd862-d537-424b-a378-91a3c75dd46f",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/a7778d78-eda8-4350-9f92-14ddae450bb7",
+            "alt": "ToGather",
+            "title": "ToGather",
+            "description": "MOBILE APP",
+            "link": "/"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/1a935d5d-813b-4083-88c4-258389ee8722",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/73373869-437d-4a20-a16b-cc063f6f825b",
+            "alt": "Branding",
+            "title": "Branding",
+            "description": "VISUAL ID",
+            "link": "/"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/62ea44cb-dcc8-477c-9330-6f082fbbe69b",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/b4e77f6a-e588-4bda-ae8f-5acbbd7c44ab",
+            "alt": "Zoo",
+            "title": "Zoo",
+            "description": "WEBSITE",
+            "link": "/"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/0d4f3459-2703-41ff-b995-da10f2bc6ad3",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/8ec6d4cd-b4e8-44b9-81b2-08cba98b2418",
+            "alt": "UX",
+            "title": "UX",
+            "description": "RESEARCH",
+            "link": "/"
           }
         ],
         "button": {
