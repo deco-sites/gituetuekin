@@ -1,0 +1,1 @@
+export { loader, default} from '../components/ui/GalleryCases.tsx'

@@ -47,7 +47,7 @@ export default function ImageAnimation({ images, device, socialItems }: Props) {
               <Image
                 src={item.image}
                 key={index}
-                className={`rounded-2xl h-[701px] w-full object-contain absolute top-0 right-0 ${
+                className={`rounded-2xl h-[701px] w-full object-cover absolute top-0 right-0 ${
                   currentImageIndex.value === index
                     ? "opacity-100"
                     : "opacity-0"
