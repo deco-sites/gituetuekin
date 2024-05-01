@@ -3165,7 +3165,11 @@
       {
         "__resolveType": "site/sections/Autor.tsx",
         "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8382/a7ca8938-44e9-4b74-8ad2-d0f2a5afcc14",
-        "description": "<p>Olá,&nbsp;<br>eu sou Giselle Tuetuekin! &nbsp;<br>uma designer &nbsp;multidisciplinar<br>residindo &nbsp;na Alemanha.&nbsp;</p>"
+        "description": "<p>Olá,&nbsp;<br>eu sou Giselle Tuetuekin! &nbsp;<br>uma designer &nbsp;multidisciplinar<br>residindo &nbsp;na Alemanha.&nbsp;</p>",
+        "button": {
+          "name": "Ler Mais",
+          "link": "/"
+        }
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
