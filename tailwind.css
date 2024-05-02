@@ -41,6 +41,14 @@
   }
 }
 
+@media screen and (max-width: 620px){
+  .avatar-mobile{
+    border-radius: 100px 15px 15px 15px;
+  }
+}
+
+
+
 .group:disabled .group-disabled\:animate-progress {
   animation: progress-frame ease normal
 }
