@@ -26,9 +26,9 @@ export interface SocialItem {
 export default function BannerMain(
   { images, device, socialItems }: SectionProps<typeof loader>,
 ) {
-  console.log("renderizou");
+
   return (
-    <div class="container max-auto flex items-center justify-center md:mt-28">
+    <div class="container max-auto flex items-center justify-center md:mt-28 relative h-[450px] -mt-12 md:h-auto">
       <ImageAnimation
         images={images}
         device={device}

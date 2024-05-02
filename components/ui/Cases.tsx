@@ -30,14 +30,15 @@ export default function Cases({ cards }: Props) {
               key={index}
               class="rounded-2xl relative group/card flex"
             >
-              <div class="w-full h-[386px] opacity-100 group-hover/card:opacity-0 transition duration-200 ease-linear">
+              <div class="w-full h-auto md:h-[386px] opacity-100 group-hover/card:opacity-0 transition duration-200 ease-linear">
                 <Image
                   src={card.image}
                   width={389}
                   height={389}
                   loading="lazy"
                   fetchPriority="auto"
-                  class="w-full h-[389px] object-cover rounded-2xl"
+                  alt={`${card.alt} image`}
+                  class="w-full h-auto md:h-[389px] object-cover rounded-2xl"
                 />
               </div>
 

@@ -60,7 +60,7 @@ export default function ImageAnimation({ images, device, socialItems }: Props) {
               />
             ))}
 
-            <div class="bg-white w-[496px] h-[308px] rounded-[30px] absolute -top-6 -left-6">
+            <div class= "hidden lg:block bg-white w-[496px] h-[308px] rounded-[30px] absolute -top-6 -left-6">
               <div class="bg-black w-[426px] h-[226px] rounded-2xl flex items-center justify-center">
                 <div class=" w-[379px] flex flex-col max-auto gap-4">
                   <p class="text-2xl text-white font-medium leaning-[34px] font-clash-display">
