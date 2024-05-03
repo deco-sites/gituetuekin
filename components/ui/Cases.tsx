@@ -1,34 +1,34 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+/** Card interface */
 export interface Card {
-  /** @title Image Desktop */
+  /** Image for desktop */
   image: ImageWidget;
-  /**@title  Image Mobile */
+  /** Image for mobile */
   imageMobile: ImageWidget;
-
   alt: string;
-
   title: string;
-
   description: string;
-
   link: string;
 }
 
+/** Props interface */
 export interface Props {
   cards: Card[];
 }
+
+/** Cases component */
 export default function Cases({ cards }: Props) {
   return (
     <>
       <ul class="grid grid-cols-1 lg:grid-cols-3 w-full gap-6">
         {cards.map((card, index) => (
-          <li>
+          <li key={index}>
             <a
               href={`${card.link}`}
               alt={`${card.alt}`}
-              key={index}
               class="rounded-2xl relative group/card flex"
+              aria-label={card.alt}
             >
               <div class="w-full h-auto md:h-[386px] opacity-100 group-hover/card:opacity-0 transition duration-200 ease-linear">
                 <Image
@@ -37,6 +37,7 @@ export default function Cases({ cards }: Props) {
                   height={389}
                   loading="lazy"
                   fetchPriority="auto"
+
                   alt={`${card.alt} image`}
                   class="w-full h-auto md:h-[389px] object-cover rounded-2xl"
                 />
