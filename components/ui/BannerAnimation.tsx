@@ -3,26 +3,34 @@ import ImageAnimation from "../../islands/ImageAnimation.tsx";
 import { AppContext } from "../../apps/site.ts";
 import type { SectionProps } from "deco/types.ts";
 
+/** Image object with desktop and mobile variants */
 export interface Picture {
-  /** @tilte Image Desktop */
+  /** Desktop image */
   image: ImageWidget;
-  /** @tilte Image Mobile */
+  /** Mobile image */
   imageMobile: ImageWidget;
 }
 
-export interface Props {
-  images: Picture[];
-  socialItems: SocialItem[];
-}
-
-export interface SocialItem {
-  label:
-    | "Drible"
-    | "Instagram"
-    | "GitHub";
+/** Social media item */
+ export interface SocialItem {
+  /** Label */
+  label: 'Drible' | 'Instagram' | 'GitHub';
+  /** Link */
   link: string;
 }
 
+/** Props for BannerMain component */
+export interface Props {
+  /** Array of images */
+  images: Picture[];
+  /** Array of social media items */
+  socialItems: SocialItem[];
+}
+
+/**
+ * BannerMain component
+ * @param props - Props object
+ */
 export default function BannerMain(
   { images, device, socialItems }: SectionProps<typeof loader>,
 ) {
